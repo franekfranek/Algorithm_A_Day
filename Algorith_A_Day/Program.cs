@@ -124,12 +124,10 @@ namespace Algorith_A_Day
             var mixedArr2 = new string[] { "Hello", "Alaska", "Dad", "Peace" };
             var charA = new char[] { 'h', 'e', 'l', 'l', 'o' };
 
-            
 
-            //Self_Dividing_Numbers_LC_728_E.SelfDividingNumbers(1, 22);
 
-            //Majority_Element_II_LC_229_M.MajorityElement(testArr);
-            Number_of_Segments_in_a_String_LC_434_E.CountSegments("Of all the gin joints in all the towns in all the world,   ");
+            var test = new Add_Digits_LC_258_E();
+            test.AddDigits(889);
         }
         
         public static ListNode ReverseList(ListNode head)
