@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Algorith_A_Day.Tests
+build_property.ProjectDir = D:\C#Projects\AAD\Algorith_A_Day.Tests\Algorith_A_Day.Tests\

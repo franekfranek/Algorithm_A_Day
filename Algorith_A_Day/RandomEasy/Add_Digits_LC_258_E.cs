@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithm_A_Day.RandomEasy
 {
     //https://leetcode.com/problems/add-digits/
-    class Add_Digits_LC_258_E
+    public class Add_Digits_LC_258_E
     {
         public int AddDigits(int num)
         {

@@ -126,8 +126,8 @@ namespace Algorith_A_Day
 
 
 
-            var test = new Add_Digits_LC_258_E();
-            test.AddDigits(889);
+            var test = new Pascals_Triangle_LC_118_E();
+            test.Generate(2);
         }
         
         public static ListNode ReverseList(ListNode head)
