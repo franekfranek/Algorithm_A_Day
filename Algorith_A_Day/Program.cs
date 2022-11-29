@@ -128,7 +128,7 @@ namespace Algorith_A_Day
 
             var test = new Pascals_Triangle_LC_118_E();
             test.Generate(2);
-            Student_Attendance_Record_I_LC_551_E.CheckRecord("PPALLP");
+            Pascals_Triangle_II_LC_119_E.GetRow(4);
         }
         
         public static ListNode ReverseList(ListNode head)
