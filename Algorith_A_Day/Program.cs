@@ -126,9 +126,7 @@ namespace Algorith_A_Day
 
 
 
-            var test = new Pascals_Triangle_LC_118_E();
-            test.Generate(2);
-            Pascals_Triangle_II_LC_119_E.GetRow(4);
+            DI_String_Match_LC_942_E.DiStringMatch("IDID");
         }
         
         public static ListNode ReverseList(ListNode head)
