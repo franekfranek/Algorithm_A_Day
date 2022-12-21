@@ -10,9 +10,9 @@ namespace Algorithm_A_Day.RandomEasy
 	//2 pointer pattern can be applied
 	public class DI_String_Match_LC_942_E
 	{
-		public static int[] DiStringMatch(string s)
+		public int[] DiStringMatch(string s)
 		{
-			if (s == "" || s.Length == 0) return new int[] { };
+			if (s == "" || s.Length == 0) return Array.Empty<int>();
 
 			int n = s.Length;
 			List<int> availableNumbers = Enumerable.Range(0, n + 1).ToList();
@@ -26,8 +26,6 @@ namespace Algorithm_A_Day.RandomEasy
 				}
 				else
 				{
-
-
 					if (s[i] == 'I')
 					{
 						result[i] = availableNumbers.Min();

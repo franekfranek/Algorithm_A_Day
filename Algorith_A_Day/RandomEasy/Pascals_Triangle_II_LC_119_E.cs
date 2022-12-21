@@ -9,7 +9,7 @@ namespace Algorithm_A_Day.RandomEasy
     //https://leetcode.com/problems/pascals-triangle-ii/
     public class Pascals_Triangle_II_LC_119_E
     {
-        public static IList<int> GetRow(int rowIndex)
+        public IList<int> GetRow(int rowIndex)
         {
             IList<IList<int>> result = new List<IList<int>>() { new List<int> { 1 } };
             if (rowIndex == 0) return result[0];
