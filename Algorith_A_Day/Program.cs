@@ -125,7 +125,8 @@ namespace Algorith_A_Day
             var charA = new char[] { 'h', 'e', 'l', 'l', 'o' };
 
 
-
+            var test1 = new Valid_Anagram_LC_242_E();
+            test1.IsAnagram("abcaaa", "aabccd");
             
         }
         
