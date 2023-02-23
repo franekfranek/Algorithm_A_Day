@@ -47,7 +47,35 @@ namespace Algorithm_A_Day.RandomEasy
         //?? lol
         public int MajorityElement3(int[] nums) =>
             nums.OrderBy(x => x).ToArray()[nums.Length / 2];
+
+        public int MajorityElement4(int[] nums)
+        {
+            if (nums.Length == 1 || nums.Length == 2) return nums[0];
+
+            int result = 0;
+            int currentHighest = 0;
+            SortedDictionary<int, int> numms = new SortedDictionary<int, int>();
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (!numms.ContainsKey(nums[i]))
+                {
+                    numms.Add(nums[i], 1);
+                }
+                else
+                {
+                    numms[nums[i]]++;
+                }
+                if (numms[nums[i]] > currentHighest)
+                {
+                    currentHighest = numms[nums[i]];
+                    result = nums[i];
+                }
+            }
+
+            return result;
         }
+    }
 
     /*
     This simple solution is an implementation of the "Baylor Moore" majority vote algrithm. The basic idea is to maintain a count for a given initial element.
@@ -107,5 +135,9 @@ namespace Algorithm_A_Day.RandomEasy
      Sort:
     var majorityElement = (nums) => nums.sort()[Math.floor(nums.length / 2)];
      */
+
+    //new 23.02.23
+
+
 }
 
