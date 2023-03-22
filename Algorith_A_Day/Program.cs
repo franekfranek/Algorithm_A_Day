@@ -125,9 +125,12 @@ namespace Algorith_A_Day
             var charA = new char[] { 'h', 'e', 'l', 'l', 'o' };
 
 
-            var test1 = new Replace_All_Digits_With_Characters_LC_1844_E();
-            test1.ReplaceDigits("a");
-            
+            var test = new Design_HashMap_706_LC_E();
+            Design_HashMap_706_LC_E.MyHashMap test2 = new Design_HashMap_706_LC_E.MyHashMap();
+            test2.Put(1, 2);
+            test2.Put(1, 3);
+
+
         }
         
         public static ListNode ReverseList(ListNode head)
